@@ -1,0 +1,300 @@
+/*top-left开始*/
+.top_leftwt{
+	background-color: white;
+	width: 86px;
+	height: 10px;
+    display: none;
+    position: absolute;
+    left: 82px;
+    top: 27px;
+    z-index:2;
+}
+.top_leftct{
+	background-color: white;
+	width: 270px;
+	height: 150px;
+	display: none;
+	position: absolute;
+	left: 80px;
+	top: 29px;
+	z-index: 1;
+	border: 1px solid #ddd;
+	padding:20px 20px;
+}
+.top_leftct td{
+	width:52px;
+	height: 32px;
+	text-align: center;
+	vertical-align: center;
+	padding: 0 10px;
+    
+}
+/*.top_leftcg{
+	background-color: white;
+	border: 1px solid #ddd;
+}*/
+/*.top_leftct span:hover {
+	background-color: #f1f1f1;
+	color: #c81623;
+}*/
+.didian{
+	padding: 5px;
+}
+
+/*top-left结束*/
+/*myjd开始*/
+.myjdwt{
+	background-color: white;
+	width: 97px;
+	height: 10px;
+    display: none;
+    position: absolute;
+    left: 631px;
+    top: 27px;
+    z-index: 2;
+}
+.myjdct{
+	background-color: white;
+	width: 230px;
+	height: 150px;
+	display: none;
+	position: absolute;
+	left: 629px;
+	top: 29px;
+	z-index: 1;
+	border: 1px solid #ddd;
+	padding:20px 20px;
+}
+
+.myjdcg{
+	background-color: white;
+	border: 1px solid #ddd;
+}
+.myjdimg{
+	float: left;
+}
+.myjdtopleft{
+	line-height: 20px;
+}
+.myjdtopleft a{
+	width: 40px;
+	padding-left: 16px;
+
+}
+.message{
+  border-left: 1px solid #ddd;
+}
+.myjdct li{
+	height: 80px;
+	width: 230px;
+
+}
+.myjdbottomleft{
+	float: left;
+	width: 110px;
+	
+}
+.myjdbottomright{
+	float: right;
+	width: 110px;
+	
+}
+/*myjd结束*/
+/*phonejd  begin*/
+.phonejdwt{
+	background-color: white;
+	width: 97px;
+	height: 10px;
+    display: none;
+    position: absolute;
+    left: 901px;
+    top: 27px;
+    z-index: 2;
+}
+.phonejdct{
+	background-color: white;
+	width: 250px;
+	height: 170px;
+	display: none;
+	position: absolute;
+	left: 900px;
+	top: 29px;
+	z-index: 1;
+	border: 1px solid #ddd;
+	padding:20px 20px;
+}
+.phonejdct li{
+	height: 90px;
+}
+.phonejdcg{
+	background-color: white;
+	border: 1px solid #ddd;
+}
+.phonejdimg{
+	float: left;
+
+}
+.phonejdtopright{
+	float: right;
+}
+/*phonejd  end*/
+
+/*focusjd begin*/
+.focusjdwt{
+	background-color: white;
+	width: 97px;
+	height: 10px;
+    display: none;
+    position: absolute;
+    left: 999px;
+    top: 27px;
+    z-index: 2;
+}
+.focusjdct{
+	background-color: white;
+	width: 88px;
+	height: 90px;
+	display: none;
+	position: absolute;
+	left: 997px;
+	top: 29px;
+	z-index: 1;
+	border: 1px solid #ddd;
+	padding: 10px 0px 5px 10px ;
+}
+
+.focusjdcg{
+	background-color: white;
+	border: 1px solid #ddd;
+}
+
+
+/*focusjd  end*/
+/*servejd  开始*/
+
+.servejdwt{
+	background-color: white;
+	width: 97px;
+	height: 10px;
+    display: none;
+    position: absolute;
+    left: 1096px;
+    top: 27px;
+    z-index: 2;
+}
+.servejdct{
+	background-color: white;
+	width: 88px;
+	height: 120px;
+	display: none;
+	position: absolute;
+	left: 1094px;
+	top: 29px;
+	z-index: 1;
+	border: 1px solid #ddd;
+	padding: 5px 5px 5px 5px ;
+	line-height: 25px;
+	text-align: center;
+}
+
+.servejdcg{
+	background-color: white;
+	border: 1px solid #ddd;
+}
+
+
+
+
+/*servejd  end*/
+/*navjd  开始*/
+.navjdwt{
+	background-color: white;
+	width: 92px;
+	height: 10px;
+    display: none;
+    position: absolute;
+    left: 1192px;
+    top: 27px;
+    z-index: 2;
+}
+.navjdct{
+	background-color: white;
+	width: 1203px;
+	height: 200px;
+	display: none;
+	position: absolute;
+	left: 70px;
+	top: 29px;
+	z-index: 1;
+	border: 1px solid #ddd;
+	padding: 10px 5px 5px 5px ;
+	line-height: 25px;
+	
+}
+
+.navjdcg{
+	background-color: white;
+	border: 1px solid #ddd;
+}
+
+
+.navsecond,.navthird,.navfour,.navfirst{
+    display: inline;
+	width: 260px;
+	height: 160px;
+	float: left;
+	margin: 25px 10px 10px 30px;
+}
+.navjdct  span{
+	font-size: 16px;
+	font-weight: bold;
+}
+.navjdct  table{
+	display: inline;
+}
+.navjdct  table td{
+	width: 80px;
+	height: 20px;
+}
+
+/*navjd  end*/
+
+/*car begin*/
+
+.carwt{
+	background-color:white;
+	width: 139px;
+	height: 10px;
+    display: none;
+    position: absolute;
+    left: 1102px;
+    top: 91px;
+    z-index: 2;
+}
+.carct{
+	background-color: white;
+	width: 300px;
+	height: 70px;
+	display: none;
+	position: absolute;
+	left: 930px;
+	top: 96px;
+	z-index: 1;
+	border: 1px solid #ddd;
+	padding: 10px 5px 5px 5px ;
+	line-height: 25px;
+	text-align: center;
+	
+}
+.carct span{
+	position: relative;
+	left: 2px;
+	top: -30px;
+	
+}
+.carcg{
+	background-color: white;
+	border: 1px solid #ddd;
+}
+
+/*car end*/

@@ -1,0 +1,283 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+		font-size: 12px
+	}
+	body{
+		background-color: #F5F5F5;}
+	
+	.top{
+	width: 100%;
+	height: 27px;
+	background-image: url(../img/top_bg.jpg); 
+	background-repeat: repeat-x; /*一个像素平铺过来*/
+	}
+	.top_content{
+		width: 1000px;
+		margin: 0 auto;/*左右设为自动后居中*/
+		line-height: 27px;/*盒子文字居中的方法*/
+	}
+	.top_content li{
+		float: right;
+		list-style-image: url(../img/arrow.jpg);
+		width: 70px;
+	}
+	.top_content a:link, .top_content a:visited {
+	color: #8E8E8E;
+	text-decoration: none;
+}
+	.top_content a:link, .top_content a:active {
+	color: #C00;
+	text-decoration: none;
+}
+	.wrap{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.logo{
+		height: 80px;
+		background-color: white;
+	}
+	.logo_left{
+		width: 200px;
+		float: left;
+	}
+	.logo_right{
+		width: 300px;
+		float: right;
+		height: 28px; /*这是指内容高度，不是指盒子高度*/
+		margin: 26px;   /*margin指距离上一个盒子的 ,所以设置30的时候在导航菜单与白色之间会有一点空隙，这里设置为26px*/
+		color: #8E8E8E;	/*设置padding在这里也有一样的效果*/
+	}
+	.logo_right img{
+		vertical-align: middle;  /*垂直方向,文字对齐图片的方式*/
+		margin-right:10px; 
+	}
+	.tel{
+		font-family: 微软雅黑;
+		font-size: 16px;
+		color: red;
+	}
+	.navi{
+		height: 40px;
+	}
+	.navi_left{
+		width: 10px;
+		height: 40px;
+		background-image: url(../img/nav_left.jpg);
+		background-repeat: no-repeat;
+		float: left;
+	}
+	.navi_mid{
+		width: 980px;
+		background-image: url(../img/nav_bg.jpg);
+		background-repeat: repeat-x;
+		float: left;
+		height: 40px;  /*要设置高度，不然文字变了，背景高度也会变*/
+	}
+	.navi_right{
+		width: 10px;
+		height: 40px; /*不设置高度的时候将无法显示次div*/
+		background-image: url(../img/nav_right.jpg);
+		background-repeat: no-repeat;
+		float: left;  /*设置float后div脱离标准流，浮动到上一个div属性中，同一地位的div和文字仍然在标准流中，所以会紧贴在脱离标准流的div右边*/
+	}
+	.navi_mid_left{
+		float: left;
+		width: 680px;
+	}	
+	.navi_mid_right{
+		float: left;
+		width: 300px;
+	}
+	.navi_mid_left li{
+		float: left;
+		list-style-type: none;
+		width: 100px;
+		text-align: center;
+		line-height: 40px;
+	}
+	.navi_mid_left a:link,.navi_mid_left a:visited{
+		text-decoration: none;
+		font-size: 16px;
+		color: #FFF;
+		font-family: 微软雅黑
+	}
+		.navi_mid_left a:hover,.navi_mid_left a:active{
+		text-decoration: none;
+		font-size: 16px;
+		color: #FF0;
+		font-family: 微软雅黑
+	}
+	.searchtext{
+	width: 190px;
+	height: 25px;
+	margin-top: 5px;  /*框用margin，文字用heightline*/
+	background-image: url(../img/search.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-color: white;
+	padding-right: 25px;
+	border: 1px solid white;
+	}
+	.ad{
+		height: 310px;
+		overflow: hidden; /*溢出这个div后将隐藏起来*/
+		margin-top: 5px;
+	}
+	.main{
+		height: 250px;
+		background-color: white;
+		margin-top: 5px;
+	}
+	.news{
+		width: 340px;
+		border: 1px solid #E8E8E8;
+	}
+	.course{
+		width: 410px;
+		border: 1px solid #E8E8E8;
+		background-color: white;
+		margin: 0 7px;
+	}
+	.sidebars{
+		width: 230px;
+		background-color: white;
+	}
+	.news,.course,.sidebars{
+		height: 250px;
+		float: left;
+	}
+	.title{
+		height: 35px;
+		border-bottom: 2px solid #E8E8E8;
+	}
+	.title_left{
+		width: 70%;
+		font-family: 微软雅黑;
+		font-size: 13px;
+		font-weight: bold;
+		color: #786F66;
+		float: left;
+		line-height: 35px;
+		padding-left: 20px;
+	}
+	.title_right{
+		width: 20%;  /*宽度不能超出*/
+		/*text-align: right;*/   /* float:right也行，但是文字的位置用text属性条好一点*/
+		line-height: 35px;
+		float: right;
+	}
+	.title_right a{
+		text-decoration: none;      /*如果要设置learn more的大小，位置，应该设置a的样式，不能去设置title—_right的*/
+		color: #999999; 
+		float: right;
+		margin-right: 10px;
+	}                      /*此处是设置link统一状态，不管是否激活*/
+/*	.pic_news img{
+		float: left;
+		margin: 5px;
+	}	
+	.pic_news h2,.pic_news p{
+		line-height: 25px;
+	}
+	.pic_news h2{
+		color: red;
+	}
+	.pic_news span{
+		margin-left: 10px;
+	}
+	.news_list{
+		clear: left;
+	}*/
+	.pic_news{
+		height: 80px;
+		margin-top: 10px;
+		line-height: 22px;
+	}
+	.pic_news img,.course_news img{
+		float: left;
+		margin:0 5px;
+	}
+	.pic_news a,.course_news a{
+		text-decoration: none;
+		color: #C00;
+	}
+	.news_list{
+		margin-top: 20px;
+	}
+	.news_list li{
+		list-style-type: none;
+		background: url(../img/list.jpg) no-repeat;
+		padding-left: 10px;
+		margin:8px;
+		border-bottom: 1px dotted #CCC;
+	}
+	.news_list a:link,.news_list a:visited{
+		text-decoration: none;
+		color: #000;
+	}
+	.news_list a:hover,.news_list a:active{
+		text-decoration: none;
+		color: #F00;
+	}
+	.news_list span{
+		color: #999;
+		float: right;
+	}
+	.course_news{
+		height: 120px;
+		margin: 10px 0px;
+		line-height: 22px;
+	}
+	.course_type{
+		height: 37px;
+		width: 372px;
+		background: url(../img/product_type_bg.jpg);
+		margin: 20px auto;
+	}
+	.course_type li{
+		line-height: 37px;
+		float: left;
+		list-style-type: none;
+		margin:0 15px;
+		text-align: center;
+	}
+	.sidebars_pic{
+		margin-top: 2px;
+		height: 140px;
+		border:1px solid #E8E8E8;
+	}
+	.sidebars_app{
+		margin-top: 10px;
+		border: 1px solid #E8E8E8;
+	}
+	.copyright{
+		width: 100%;
+		height: 200px;
+		margin-top: 10px;
+		background-color: #E8E8E8;
+	}
+	.copyright_content{
+		width: 1000px;
+		margin: 0 auto;
+		padding-top: 20px;   /*整体的修改还是要找到大元素*/
+	}
+	.copyright_content li{
+		list-style-type: none;
+		float: left;
+		width: 200px;
+		background: url(../img/line.png) no-repeat right center;
+		text-align: center;
+		line-height: 30px;
+		font-family: 微软雅黑;
+	}
+	.copyright_content a{
+		color: #999;
+		text-decoration: none;
+		font-size: 18px;
+	}
+	.copyright_content li ul li a{
+
+		font-size: 14px;
+	}                             /*样式覆盖原则：后面设定的样式如果符合前面样式的选项，会以后面的样式为准。*/

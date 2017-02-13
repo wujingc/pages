@@ -1,0 +1,957 @@
+.top{
+	width: 1365px;
+	height: 29px;
+	background-color: #f1f1f1;
+	
+}
+.top_left{
+	margin-left: 80px;
+	line-height: 29px;
+	float: left;
+	padding: 0 3px 0 7px;
+}
+
+
+
+.top_mid{
+	float: right;
+	line-height: 29px;
+	margin-right: 15px;
+}
+.top_mid a{
+	text-decoration: none;
+	line-height: 29px;
+	margin-right: 5px;
+}
+
+.top_right{
+	float: right;
+	margin-right: 80px;
+}
+.top_right li{
+	
+	display: inline;
+	padding:9px;
+
+}
+.top_right li a{
+	
+	border-left: 1px solid #ddd;
+	padding-left:8px;
+}
+.top_right li img,.top_left img{
+	position: relative;
+	left: 2px;
+	top: 4px;
+	}
+
+/*logo begin*/
+.logo{
+	width: 1370px;
+	height: 96px;
+	
+}
+.logo2{
+	
+	position: absolute;
+	left: 35px;
+	top: 30px;
+}
+.search{
+	margin: 29px auto auto 65px;
+	float: left;
+	width: 540px;
+	height: 61px;
+	position: absolute;
+	left: 400px;
+	top: 30px;
+	
+}
+
+.text{
+	border: 2px solid #b1191a;
+	height:  35px;
+    width: 450px;
+    float: left;
+    font-size: 16px;
+    padding-left: 2px;
+}
+
+.searchright{
+	background-color: #b1191a;
+	border: 2px solid #b1191a;
+	width: 75px;
+	height: 35px;
+	display: block;
+	font-size: 20px;
+	color: white;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+    line-height: 35px;
+
+}
+.searchbottom{
+	height: 15px;
+	margin-top: 2px;
+	text-align: center;
+	width: 500px;
+	margin-right: 50px;
+	float: right;
+}
+.searchbottom a{
+	margin-left: 5px;
+}
+.car{
+	text-align: center;
+	width: 140px;
+	height: 35px;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	position: absolute;
+	left: 1100px;
+	top: 60px;
+	
+}
+.carimg{
+	margin: 7px  5px auto 19px;
+	float: left;
+	width: 21px;
+	height: 19px;
+}
+.car a{
+	display: block;
+	margin-top: 9px;
+	float: left;
+}
+.car span{
+	
+	float: right;
+	margin:9px 15px auto auto;
+}
+/*logo end*/
+/*topnav begin*/
+.topnav{
+	width: 1370px;
+	height: 50px;
+    border-bottom:  2px solid #b1191a;
+}
+
+.topnavmid{
+	float: left;
+   position: relative;
+   left: 365px;
+   top:20px;
+}
+.topnavmid a{
+	font-size: 14px;
+	color: #333333;
+	margin-right: 25px;
+	font-weight: bold;
+
+}
+.topnavright{
+	float: right;
+	position: relative;
+	left: -105px;
+	top: 17px;
+    cursor: pointer;
+}
+/* topnav end*/
+/* leftnav begin*/
+.topmenu
+        {
+            display: block;
+            width: 220px;
+            border: 2px solid #b1191a;
+            margin: 0;
+            padding: 0;
+            float: left;
+              background-color: #c81623;
+              position: absolute;
+            left: 70px;
+            top: 137px;
+        }
+        .toptitle
+        {
+            height: 40px;
+            line-height: 40px;
+            text-align: left;
+            font-size: 11pt;
+            font-weight: bold;
+            color: white;
+            background: #b1191a;
+            padding-left: 20px;
+
+        }
+        .topmenu li
+        {
+            height: 30px;
+            line-height: 30px;
+            font-size: 11pt;
+            list-style-type: none;
+            text-align: left;
+            padding-left: 8px;
+            z-index: 3;
+            
+            width: 220px;
+        }
+
+        .lihover{
+        	background-color:#f7f7f7;
+             height: 30px;
+             z-index: 3;
+
+
+        }
+        
+
+        .topmenu li a
+        {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .topmenu  .lihover a/*鼠标移动到上面时，应用的样式*/
+        {
+            color: #b1191a;
+
+        }
+         
+
+         .topmenu .lihover .submenu /*悬浮层*/
+        {
+            display: block;
+        }
+        
+        .topmenu .lihover span /*白色小方框*/
+        {
+            background: #f7f7f7;
+            display: inline-block;
+            z-index: 20;
+            width: 10px;
+            height: 30px;
+            float: right;
+            position: relative;
+            left: 3px;
+        }
+        .topmenu li span
+        {
+            color: white;
+            float: right;
+            margin-right: 7px;
+            
+            
+        }    
+
+
+
+             
+     
+        .submenu
+        {
+            display: none;
+            min-width: 750px;
+            
+           min-height: 400px;
+           
+            float: right;
+            position: absolute;
+            left: 221px;
+            top: 38px;
+            border-right: 1px solid #b1191a;
+            border-bottom: 1px solid #b1191a;
+            border-left: 1px solid #b1191a;
+            z-index: 6;
+            background: white;
+            background-color: #f7f7f7;
+        }
+        .topmenu .lihover .submenu .leftdiv dl dd a{
+            color: #666;
+        }
+        .topmenu .lihover .submenu .leftdiv dl dd a:hover{
+             color: #c81623;
+        }
+        .leftdiv
+        {
+            float: left;
+            width: 490px;
+            margin: 5px;
+        }
+        .rightdiv
+        {
+            float: left;
+            width: 200px;
+            margin: 5px;
+        }
+       
+        .leftdiv dl
+        {
+            display: block;
+            border-bottom: 1px solid #EEE;
+            padding-bottom: 6px;
+            overflow: hidden;
+        }
+        .leftdiv dl dt
+        {
+            display: block;
+            float: left;
+            width: 60px;
+            text-align: right;
+            height: 22px;
+            line-height: 22px;
+            padding-right: 6px;
+        }
+        
+        .leftdiv dl dt a
+        {
+            color: #e4393c;
+            font-weight: bold;
+            text-decoration: underline;
+            font-size: 10pt;
+        }
+        .leftdiv dl dd
+        {
+            display: block;
+            overflow: hidden;
+        }
+        .leftdiv dl dd a
+        {
+            display: block;
+            float: left;
+            border-left: 1px solid #CCC;
+            
+            font-size: 9pt;
+            padding: 0 8px;
+            height: 14px;
+            line-height: 14px;
+            margin: 4px 0;
+        }
+        
+        .rightdiv dl dd
+        {
+            margin: 3px 0;
+        }
+        
+        .rightdiv dl dt
+        {
+            color: #e4393c;
+            font-weight: bold;
+            font-size: 10pt;
+        }
+        
+        .rightdiv dl dd a
+        {    color: #666;
+            
+           
+            line-height: 22px;
+        }
+        .rightdiv dl dd a:hover
+        {
+            color: #c81623;
+            font-weight: normal;
+        }
+      
+     
+
+
+/* leftnav end*/
+
+/* focu begin*/
+.ad{
+    overflow: hidden;
+    position: relative;
+    left: 308px;
+    top: 16px;
+    z-index: 0;
+}
+/* focu end*/
+
+
+/* fast begin*/
+.fast{
+    
+    width: 228px;
+    min-height: 400px;
+    border: 1px solid #ddd;
+    position: absolute;
+    left: 1050px;
+    top: 193px;
+
+}
+.report ul{
+    border-bottom: 1px dashed #ddd;
+    height: 45px;
+    width: 228px;
+    
+}
+.report ul span{
+    font-size: 18px;
+    float: left;
+    line-height: 45px;
+}
+.report ul a{
+  float: right;
+  margin-right: 10px;
+   line-height: 45px;
+}
+.tehui{
+    padding: 10px;
+    line-height: 25px;
+}
+.tehui li a span{
+    font-size: 14px;
+    
+}
+.tehui li a span:hover{
+    color: #c81623;
+}
+.lifeserve ul {
+    border-bottom: 1px dashed #ddd;
+    border-top: 1px dashed #ddd;
+    height: 45px;
+    width: 228px;
+    text-align: center;
+    line-height: 45px;
+
+}
+.lifeserve ul span{
+    font-size: 15px;
+    float: left;
+     font-size: 18px;
+}
+.lifeimg{
+    width: 56px;
+    height: 60px;
+    display: inline;
+    float: left;
+    border-right: 1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    text-align: center;
+}
+/* fast end*/
+
+.wrap{
+    width: 1210px;
+    margin: 0 auto;
+    min-height: 3000px;
+    position: absolute;
+    left: 67px;
+    top:665px;
+   
+}
+/* bottom begin*/
+.bottom{
+    width: 1210px;
+    height: 170px;
+    display: block;
+}
+.bottom img{
+    float: left;
+    margin-right: 6px;
+}
+.bottomall{
+    cursor: pointer;
+}
+.clickcgrt{
+    display: none;
+    width: 28px;
+    height: 62px;
+    float: right;
+    background-color: #bebebe;
+    font-size: 30px;
+    position: relative;
+    left: -7px;
+    top: -121px;
+    z-index: 1;
+    margin-bottom: -40px;
+    
+    text-align: center;
+    
+}
+.clickcglf{
+    display: none;
+    width: 28px;
+    height: 62px;
+    float: left;
+    background-color: #bebebe;
+    font-size: 30px;
+    position: relative;
+    left: 1px;
+    top: -119px;
+    z-index: 1;
+    margin-bottom: -40px;
+    
+    text-align: center;
+
+    
+}
+.clickcglf span{
+    color: white;
+    line-height: 28px;
+    position: relative;
+    left: 0px;
+    top: 14px;
+}
+.clickcgrt span{
+    color: white;
+    line-height: 28px;
+    position: relative;
+    left: 0px;
+    top: 14px;
+}
+
+
+.guess{
+    width: 1210px;
+    height: 26px;
+    margin-top: 25px;
+    
+    
+}
+.guess span{
+    font-size: 20px;
+    float: left;
+}
+.nextone{
+    float: right;
+    cursor: pointer;
+}
+.youlike{
+    float: left;
+}
+.guesssub{
+    width: 1210px;
+    height: 235px;
+    border: 1px solid #ddd;
+}
+.guesssubeq{
+    width: 200px;
+    height: 233px;
+    float: left;
+
+}
+.guesssubeq img{
+    width: 198px;
+    height: 151px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+.guesssubeq li{
+    width: 146px;
+    text-align: left;
+    border-right: 1px solid #ddd;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.guesssubeq li span{
+  color: #c81623;
+  font-size: 18px;
+  display: block;
+  margin-top: 4px;
+  font-weight: bold;
+}
+
+/* guess end*/
+/* tesegou begin*/
+.tesegou{
+    width: 1210px;
+    height: 375px;
+    margin-top: 25px;
+    
+}
+.tesegou span{
+    display: block;
+    font-size: 20px;
+    float: left;
+    
+}
+.tesegou img{
+ width: 1209px;
+ height: 173px;
+ cursor: pointer;
+}
+.tesegousub{
+    width: 1210px;
+    height: 108px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+/* bottom end*/
+/* bottom begin*/
+.onef{
+    width: 1210px;
+    height: 40px;
+    border-bottom: 1px solid #c81623;
+    margin-top: 60px;
+    
+}
+.onef img{
+    margin-bottom: 5px;
+    margin-right: 4px;
+    float: left;
+    margin-top: 2px;
+}
+.onef span{
+   margin-bottom: 5px;
+   font-size: 23px;
+   float: left;
+   margin-top: 7px;
+}
+.onefrt{
+    float: right;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    margin-top: 0px;
+}
+.onefli{
+    
+    float: left;
+    
+    padding: 10px 0;
+     
+
+}
+.oneflicg{
+  border-top: 2px solid #c81623;
+  border-right: 1px solid #c81623;
+  border-left: 1px solid #c81623;
+  padding: 8px 0  10px 0;
+  float: left;
+
+}
+
+.onefli a{
+    padding: 0 15px;
+    border-right: 1px solid #ddd;
+    display: block;
+}
+.oneflicg a{
+     padding: 0 15px;
+     
+    display: block;
+}
+.onef .oneflicg .dapaiwt{
+    display: block;
+}
+.onef .oneflicg .dapai{
+    display: block;
+}
+.dapaiwt{
+    display: none;
+    height:5px;
+    background-color: white;
+    position: relative;
+    top: 5px;
+    z-index: 5;
+
+}
+.dapai{
+    width: 884px;
+    height: 634px;
+        position: absolute;
+    left: 329px;
+    top: 1073px;
+    display: none;
+        z-index: 3;
+        background-color: white;
+}
+.dapai img{
+    border: 1px solid #ddd;
+    margin: 0px;
+    float: left;
+}
+.dapailf{
+    width: 442px;
+
+float: left;
+}
+.dapairt{
+    float: right;
+   position: relative;
+   left: -4px;
+    width: 442px;
+}
+
+/* 男装*/
+.fcuk{
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    float: left;
+    width:219px;
+    height:240px;
+    
+    
+}
+.o{
+    float: left;
+}
+.nanzhuanimg{
+    width: 130px;
+    height: 130px;
+     cursor: pointer;
+     margin-left: 40px;
+     
+}
+
+.nanzhuanbt{
+    margin-top: 35px;
+   
+
+}
+.nanzhuanbt span{
+    font-size: 18px;
+    color: #c81623;
+    margin-left: 13px;
+
+}
+
+
+
+
+/* 男装结束*/
+
+
+
+
+
+
+
+
+
+
+/* 焦点图开始*/
+.try{
+    cursor: pointer;
+    height: 315px;
+    width: 439px;
+    border: 1px solid #ddd;
+
+
+}
+.click{
+    display:block;
+    width: 28px;
+    height: 62px;
+    float: right;
+    background-color: #bebebe;
+    font-size: 30px;
+    position: absolute;
+    left: 411px;
+    top: 275px;
+    z-index: 1;
+   
+    
+    text-align: center;
+    
+}
+.cli{
+    display: block;
+    width: 28px;
+    height: 62px;
+    float: left;
+    background-color: #bebebe;
+    font-size: 30px;
+    position: absolute;
+    left: 0px;
+    top: 275px;
+    z-index: 1;
+    
+    
+    text-align: center;
+
+    
+}
+.cli span{
+    color: white;
+    line-height: 28px;
+    position: relative;
+    left: 5px;
+    top: 12px;
+    background-color: #bebebe;
+}
+.click span{
+    color: white;
+    line-height: 28px;
+    position: relative;
+    left: 5px;
+    top: 12px;
+    background-color: #bebebe;
+}
+.bubu{ position: absolute;
+    left: 163px;
+    top: 451px;
+    z-index: 9;
+}
+
+.bu1,.bu2,.bu3,.bu4{
+    display: inline;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 5px;
+    float: left;
+    margin-left: 4px;
+   
+    
+}
+
+/* 1flf*/
+.oneflf{
+    width: 330px;
+    min-height: 600px;
+    position: absolute;
+    top: 1073px;
+    left: 0px;
+
+}
+.oneflf img{
+    margin-top: -2px;
+    cursor: pointer;
+}
+.oneflftop{
+    
+    background-color: #e1f1f1;
+    width: 330px;
+    height: 92px;
+    position: absolute;
+    left: 0;
+    top:253px;
+    
+}
+.oneflftop li{
+    float: left;
+    width: 90px;
+     height: 40px;
+     margin: 10px 0 0 10px;
+}
+.oneflftop li img{
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.oneflfmid{
+    text-align: center;
+    height: 136px;
+    width: 330px;
+    position: absolute;
+    left: 0;
+    top:345px;
+    background-color: #edf7f6;
+}
+.tab{
+    height: 120px;
+    width: 320px;
+    float: left;
+    
+    margin: 0 8px;
+}
+.tab tr td{
+    width: 8px;
+}
+.oneflf ul{
+    
+    margin-top: 6px;
+}
+.oneflf ul img{
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+/* flsub begin*/
+.flsub{
+    margin-top: 650px;
+    width: 1210px;
+    height: 65px;
+    background-color: #f7f5fa;
+}
+.flsub li{
+    padding: 10px auto;
+    float: left;
+    background-color: #f7f5fa;
+    vertical-align: middle;
+    margin-top: 11px;
+
+}
+.flsub li img{
+    border-right: 1px dashed #ddd;
+    cursor: pointer;
+    margin:0 10px;
+}
+.alert{
+    width: 1210px;
+    background-color: #c81623;
+    text-align: center;
+    height: 50px;
+    margin-top: 25px;
+}
+.alert span{
+    font-size: 40px;
+    color: white;
+}
+/* bottom end*/
+.lf{
+    position: fixed;
+    left: 20px;
+    top: 170px;
+    display: none;
+}
+.lf ul{
+    width: 25px;
+    height: 25px;
+    margin: 1px dashed black;
+    font-size: 17px;
+    color: #666;
+    text-align: center;
+    line-height: 25px;
+}
+/* bottom begin*/
+
+/* bottom end*/
+/* bottom begin*/
+
+/* bottom end*/
+/* bottom begin*/
+
+/* bottom end*/
+/* bottom begin*/
+
+/* bottom end*/
+/* bottom begin*/
+
+/* bottom end*/
+/* bottom begin*/
+
+/* bottom end*/
+/* bottom begin*/
+
+/* bottom end*//* bottom begin*/
+
+/* bottom end*/
+/* bottom begin*/
+
+/* bottom end*/
+/* bottom begin*/
+
+/* bottom end*/
+/* bottom begin*/
+
+/* bottom end*/
+/* bottom begin*/
+
+/* bottom end*/
+/* bottom begin*/
+
+/* bottom end*/
+/* bottom begin*/
+
+/* bottom end*/
+/* bottom begin*/
+
+/* bottom end*/
+/* bottom begin*/
+
+/* bottom end*/
